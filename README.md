@@ -12,6 +12,27 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### Connect with me
+
+<p>
+
+<a href="x.com/AlihanCaliskanx" target="_blank">
+<img src="assets/icons/skill-icons--twitter.svg" alt="">
+</a>
+
+<a href="" target="_blank">
+<img src="assets/icons/skill-icons--instagram.svg" alt="">
+</a>
+    
+<a href="" target="_blank">
+<img src="assets/icons/skill-icons--linkedin.svg" alt="">
+</a>
+
+<a href="">
+<img src="assets/icons/skill-icons--codepen-dark.svg" alt="">
+</a>
+
+</p>
 
 ### Skills And Tools
 
