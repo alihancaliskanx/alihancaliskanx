@@ -53,8 +53,6 @@ Here are some ideas to get you started:
     <img src="assets/icons/skill-icons--raspberrypi-dark.svg">
 </a>
 
-<br>
-
 <a href="https://www.python.org/" target="_blank">
     <img src="assets/icons/skill-icons--python-dark.svg">
 </a>
@@ -95,8 +93,6 @@ Here are some ideas to get you started:
     <img src="assets/icons/skill-icons--swift.svg">
 </a>
 
-<br>
-
 <a href="https://html.spec.whatwg.org/multipage/" target="_blank">
     <img src="assets/icons/skill-icons--html.svg">
 </a>
@@ -128,7 +124,5 @@ Here are some ideas to get you started:
 <a href="https://windicss.org/" target="_blank">
     <img src="assets/icons/skill-icons--windicss-dark.svg">
 </a>
-
-<br>
 
 </p>
