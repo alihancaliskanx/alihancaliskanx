@@ -53,9 +53,13 @@
 
 <br>
 
+
+<p align="center">
 <!--START:X-->
-<p align="center">Loading...</p>
+Loading...
 <!--END:X-->
+</p>
+
 
 <br>
 
