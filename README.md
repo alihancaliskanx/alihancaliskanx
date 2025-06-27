@@ -1,7 +1,4 @@
-<!--
-**alihancaliskanx/alihancaliskanx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+<h1>Alihan ÇALIŞKAN</h1>
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -39,7 +36,9 @@ Here are some ideas to get you started:
 </p>
 
 <br>
+
 ### Skills and Tools
+
 <p>
 
 <a href="https://www.microsoft.com/en-us/windows/" target="_blank">
