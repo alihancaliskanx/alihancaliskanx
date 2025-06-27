@@ -1,0 +1,23 @@
+name: Latest Tweets Workflow
+
+on:
+  schedule: # Otomatik çalışması için
+    - cron: '*/30 * * * *' # Her 30 dakikada bir
+  workflow_dispatch: # Manuel çalıştırma
+
+jobs:
+  update-readme-with-twitter:
+    name: Update this repo's README with latest tweets
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "X" # README içinde hangi alanın güncelleneceği
+          feed_list: "https://rss.app/feeds/abcdef1234567890.xml" # BURAYA RSS LİNKİNİ KOY
+          max_post_count: 5
+          commit_message: "Updated with the latest tweets"
+          committer_username: "alihancaliskanx"
+          committer_email: "alihancaliskan@workmail.com"
