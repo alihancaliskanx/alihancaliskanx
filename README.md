@@ -195,7 +195,7 @@
     <img src="assets/icons/skill-icons--pycharm-dark.svg">
 </a>
 
-<a href="www.arduino.cc" target="_blank">
+<a href="https://www.arduino.cc/" target="_blank">
     <img src="assets/icons/skill-icons--arduino.svg">
 </a>
 
