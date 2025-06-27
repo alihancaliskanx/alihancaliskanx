@@ -1,4 +1,4 @@
-<h1>Alihan ÇALIŞKAN</h1>
+<h1 align="center">Hi there, I'm Alihan</h1>
 
 <table border="0">
     <tr>
@@ -52,6 +52,15 @@
 </p>
 
 <br>
+
+<details>
+  <summary><h3>GitHub Profile Stats</h3>&nbsp;&nbsp;&nbsp;<a href="#"><img src="https://komarev.com/ghpvc/?username=alihancaliskanx&label=Profile%20views&color=0e75b6&style=flat" alt="alihancaliskanx" /></a><br /><small>☝🏼 Click to expand/collapse detailed stats</small><br />&nbsp;<br /></summary>
+  <div><a href="#"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=alihancaliskanx&show_icons=true&locale=en&layout=compact&theme=dracula&hide_border=true" alt="alihancaliskanx" /><br /><br /></a></div>
+  <div><a href="#"><img src="https://github-readme-stats.vercel.app/api?username=alihancaliskanx&show_icons=true&locale=en&theme=dracula&hide_border=true" alt="alihancaliskanx" /></a></div>
+  <h5><b>I created this profile, for now is blank</b></h3><br>
+</details>
+
+
 
 ### Skills and Tools
 
@@ -218,3 +227,12 @@
 </a> -->
 
 </p>
+
+
+
+
+
+
+
+
+
