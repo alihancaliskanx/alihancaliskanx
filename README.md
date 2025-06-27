@@ -1,14 +1,30 @@
 <h1>Alihan ÇALIŞKAN</h1>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<table border="0">
+    <tr>
+        <td>👔</td>
+        <td>I’m currently studying at <b><a href="https://www.carevoyance.com/" target="_blank">Kocaeli University</a></b>.</td>
+    </tr>
+    <tr>
+        <td>📚</td>
+        <td>I’m currently learning <b>JavaScript</b>, <b>TailwindCSS</b>, <b>Neovim</b>.</td>
+    </tr>
+    <!-- <tr>
+        <td>🤝</td>
+        <td>I’m looking for help maintaining and growing <b><a href="" target="_blank">Autonomous</a></b>.</td>
+    </tr> -->
+    <tr>
+        <td>📫</td>
+        <td>You can reach me on <b><a href="https://x.com/AlihanCaliskanx/" target="_blank">X</a></b> or via <b><a href="mailto:alihancaliskan@workmail.com" target="_blank">email</a></b>.</td>
+    </tr>
+    <tr>
+        <td>📄</td>
+        <td>Learn more about my experience on <b><a href="https://linkedin.com/in/alihan-caliskan/" target="_blank">LinkedIn</a></b> or <b><a href="https://github.com/alihancaliskanx/alihancaliskanx/raw/main/alihancaliskanx-Resume.pdf">download my resume</a></b>.</td>
+    </tr>
+</table>
+
+
+
 ### Connect with me
 
 <p>
@@ -125,9 +141,9 @@
     <img src="assets/icons/skill-icons--css.svg">
 </a>
 
-<!-- <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
     <img src="assets/icons/skill-icons--javascript.svg">
-</a> -->
+</a>
 
 <!-- <a href="https://www.typescriptlang.org/" target="_blank">
     <img src="assets/icons/skill-icons--typescript.svg">
@@ -173,9 +189,9 @@
     <img src="assets/icons/skill-icons--vscode-dark.svg">
 </a>
 
-<!-- <a href="https://visualstudio.microsoft.com/" target="_blank">
+<a href="https://visualstudio.microsoft.com/" target="_blank">
     <img src="assets/icons/skill-icons--visualstudio-dark.svg">
-</a> -->
+</a>
 
 <a href="https://www.jetbrains.com/pycharm/" target="_blank">
     <img src="assets/icons/skill-icons--pycharm-dark.svg">
