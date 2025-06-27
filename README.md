@@ -51,6 +51,12 @@
 
 <br>
 
+<!--START:X-->
+<p align="center">Loading...</p>
+<!--END:X-->
+
+<br>
+
 <h3 align="center">Skills and Tools</h3>
 
 <p align="center">
