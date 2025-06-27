@@ -16,25 +16,29 @@ Here are some ideas to get you started:
 
 <p>
 
-<a href="x.com/AlihanCaliskanx" target="_blank">
-<img src="assets/icons/skill-icons--twitter.svg" alt="">
+<a href="https://x.com/AlihanCaliskanx/" target="_blank">
+    <img src="assets/icons/skill-icons--x.png">
 </a>
 
-<a href="" target="_blank">
-<img src="assets/icons/skill-icons--instagram.svg" alt="">
-</a>
-    
-<a href="" target="_blank">
-<img src="assets/icons/skill-icons--linkedin.svg" alt="">
+<a href="https://www.instagram.com/alihancaliskan25/" target="_blank">
+    <img src="assets/icons/skill-icons--instagram.png">
 </a>
 
-<a href="">
-<img src="assets/icons/skill-icons--codepen-dark.svg" alt="">
+<a href="https://linkedin.com/in/alihan-caliskan/" target="_blank">
+    <img src="assets/icons/skill-icons--linkedin.png">
+</a>
+
+<a href="https://www.reddit.com/user/alihancaliskan/" target="_blank">
+    <img src="assets/icons/skill-icons--reddit.png">
+</a>
+
+<a href="https://discordapp.com/users/370240411395948546/" target="_blank">
+    <img src="assets/icons/skill-icons--discord.png">
 </a>
 
 </p>
 
-### Skills And Tools
+<br>
 
 <p>
 
@@ -150,52 +154,52 @@ Here are some ideas to get you started:
     <img src="assets/icons/skill-icons--matlab-dark.svg">
 </a>
 
-<a href="" target="_blank">
+<a href="https://www.npmjs.com/" target="_blank">
     <img src="assets/icons/skill-icons--npm-dark.svg">
 </a>
 
-<a href="" target="_blank">
+<a href="https://git-scm.com/" target="_blank">
     <img src="assets/icons/skill-icons--git.svg">
 </a>
 
-<a href="" target="_blank">
+<a href="https://www.vim.org/" target="_blank">
     <img src="assets/icons/skill-icons--vim-dark.svg">
 </a>
 
-<a href="" target="_blank">
-    <img src="assets/icons/skill-icons--neovim-dark.svg" alt="">
+<a href="https://neovim.io/" target="_blank">
+    <img src="assets/icons/skill-icons--neovim-dark.svg">
 </a>
 
-<a href="" target="_blank">
-    <img src="assets/icons/skill-icons--vscode-dark.svg" alt="">
+<a href="https://code.visualstudio.com/" target="_blank">
+    <img src="assets/icons/skill-icons--vscode-dark.svg">
 </a>
 
-<a href="" target="_blank">
-    <img src="assets/icons/skill-icons--visualstudio-dark.svg" alt="">
+<a href="https://visualstudio.microsoft.com/" target="_blank">
+    <img src="assets/icons/skill-icons--visualstudio-dark.svg">
 </a>
 
-<a href="" target="_blank">
-    <img src="assets/icons/skill-icons--pycharm-dark.svg" alt="">
+<a href="https://www.jetbrains.com/pycharm/" target="_blank">
+    <img src="assets/icons/skill-icons--pycharm-dark.svg">
 </a>
 
-<a href="" target="_blank">
-    <img src="assets/icons/skill-icons--arduino.svg" alt="">
+<a href="www.arduino.cc" target="_blank">
+    <img src="assets/icons/skill-icons--arduino.svg">
 </a>
 
-<!-- <a href="" target="_blank">
-    <img src="assets/icons/skill-icons--photoshop.svg" alt="">
+<!-- <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
+    <img src="assets/icons/skill-icons--photoshop.svg">
 </a> -->
 
-<!-- <a href="" target="_blank">
-    <img src="assets/icons/skill-icons--blender-dark.svg" alt="">
+<!-- <a href="https://www.blender.org/" target="_blank">
+    <img src="assets/icons/skill-icons--blender-dark.svg">
 </a> -->
 
-<!-- <a href="" target="_blank">
-    <img src="assets/icons/skill-icons--pytorch-dark.svg" alt="">
+<!-- <a href="pytorch.org" target="_blank">
+    <img src="assets/icons/skill-icons--pytorch-dark.svg">
 </a> -->
 
-<!-- <a href="" target="_blank">
-    <img src="assets/icons/skill-icons--qt-dark.svg" alt="">
+<!-- <a href="doc.qt.io" target="_blank">
+    <img src="assets/icons/skill-icons--qt-dark.svg">
 </a> -->
 
 </p>
