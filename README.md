@@ -187,9 +187,9 @@
     <img src="assets/icons/skill-icons--vscode-dark.svg">
 </a>
 
-<a href="https://visualstudio.microsoft.com/" target="_blank">
+<!-- <a href="https://visualstudio.microsoft.com/" target="_blank">
     <img src="assets/icons/skill-icons--visualstudio-dark.svg">
-</a>
+</a> -->
 
 <a href="https://www.jetbrains.com/pycharm/" target="_blank">
     <img src="assets/icons/skill-icons--pycharm-dark.svg">
