@@ -135,9 +135,9 @@ Loading...
     <img src="assets/icons/skill-icons--rust.svg">
 </a> -->
 
-<!-- <a href="https://www.lua.org/" target="_blank">
+<a href="https://www.lua.org/" target="_blank">
     <img src="assets/icons/skill-icons--lua-dark.svg">
-</a> -->
+</a>
 
 <!-- <a href="https://www.swift.com/" target="_blank">
     <img src="assets/icons/skill-icons--swift.svg">
