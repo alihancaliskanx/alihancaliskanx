@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td>📚</td>
-        <td>I’m currently learning <b>JavaScript</b>, <b>TailwindCSS</b>, <b>Neovim</b>.</td>
+        <td>I’m currently learning <b>C from CS50 Harvard</b>, <b>autonomous system from AURA TEAM</b> and <b>Neovim</b>.</td>
     </tr>
     <!-- <tr>
         <td>🤝</td>
