@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td>📚</td>
-        <td>I’m currently learning <b>C from CS50 Harvard</b>, <b>autonomous system from AURA TEAM</b> and <b>Neovim</b>.</td>
+        <td>I’m currently learning <b>C and C++ </b>, <b>autonomous system from AURA TEAM</b> and <b>Communication at GCS with autonomous vehicles</b>.</td>
     </tr>
     <!-- <tr>
         <td>🤝</td>
