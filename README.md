@@ -54,13 +54,6 @@
 <br>
 
 
-<p align="center">
-<!--START:X-->
-Loading...
-<!--END:X-->
-</p>
-
-
 <br>
 
 <h3 align="center">Skills and Tools</h3>
@@ -104,7 +97,7 @@ Loading...
 </a>
 
 <a href="https://www.python.org/" target="_blank">
-    <img src="assets/icons/skill-icons--python-dark.svg">
+    <img src="assets/icons/skill-icons--python-dark.svg9">
 </a>
 
 <!-- <a href="https://www.open-std.org/jtc1/sc22/wg14/" target="_blank">
