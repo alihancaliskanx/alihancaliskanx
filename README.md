@@ -72,9 +72,9 @@
     <img src="assets/icons/skill-icons--arch-dark.svg">
 </a>
 
-<a href="https://nixos.org/" target="_blank">
+<!-- <a href="https://nixos.org/" target="_blank">
     <img src="assets/icons/skill-icons--nix-dark.svg">
-</a>
+</a> -->
 
 <a href="https://www.debian.org/" target="_blank">
     <img src="assets/icons/skill-icons--debian-dark.svg">
@@ -96,9 +96,9 @@
     <img src="assets/icons/skill-icons--raspberrypi-dark.svg">
 </a>
 
-<a href="https://www.python.org/" target="_blank">
+<!-- <a href="https://www.python.org/" target="_blank">
     <img src="assets/icons/skill-icons--python-dark.svg9">
-</a>
+</a> -->
 
 <!-- <a href="https://www.open-std.org/jtc1/sc22/wg14/" target="_blank">
     <img src="assets/icons/skill-icons--c.svg">
@@ -116,9 +116,9 @@
     <img src="assets/icons/skill-icons--bash-dark.svg">
 </a>
 
-<!-- <a href="https://go.dev/" target="_blank">
+<a href="https://go.dev/" target="_blank">
     <img src="assets/icons/skill-icons--golang.svg">
-</a> -->
+</a>
 
 <!-- <a href="https://www.java.com/en/" target="_blank">
     <img src="assets/icons/skill-icons--java-dark.svg">
