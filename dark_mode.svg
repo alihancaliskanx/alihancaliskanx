@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1015px" height="532px" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" width="1073px" height="512px" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" font-size="16px">
 <style>
 @font-face {src: local('Consolas'); font-family: 'ConsolasFallback'; font-display: swap; size-adjust: 109%;}
 .key{fill:#ffa657} .val{fill:#a5d6ff} .cc{fill:#616e7f}
 .add{fill:#3fb950} .del{fill:#f85149}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1015px" height="532px" rx="15" fill="#161b22"/>
+<rect width="1073px" height="512px" rx="15" fill="#161b22"/>
 <text x="26" y="42" fill="#c9d1d9" xml:space="preserve">              ..:-+*#####%#+:</text>
 <text x="26" y="62" fill="#c9d1d9" xml:space="preserve">           :=*%@@@@@@@@@@@@@@+</text>
 <text x="26" y="82" fill="#c9d1d9" xml:space="preserve">         -#@@@@@@@@@@@@@@@@@@@*.</text>
@@ -30,23 +30,23 @@ text, tspan {white-space: pre;}
 <text x="26" y="442" fill="#c9d1d9" xml:space="preserve">    .-===+*#@*=-==+**#***++*%@%***#*=-:.</text>
 <text x="26" y="462" fill="#c9d1d9" xml:space="preserve"> .-+**%#*##+#@*=--========+%@%****%%#****=-.</text>
 <text x="488" y="42" fill="#c9d1d9" font-weight="bold">alihan@caliskan</text>
-<text x="488" y="62" class="cc">----------------------------------------------------</text>
-<text x="488" y="82" fill="#c9d1d9" xml:space="preserve"><tspan class="key">OS</tspan> <tspan class="cc">...............</tspan> <tspan class="val">CachyOS, Windows 11, Android 15</tspan></text>
-<text x="488" y="102" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Uptime</tspan> <tspan class="cc">...........</tspan> <tspan class="val">3 years, 2 months, 14 days</tspan></text>
+<text x="488" y="62" class="cc">----------------------------------------------------------</text>
+<text x="488" y="82" fill="#c9d1d9" xml:space="preserve"><tspan class="key">OS</tspan> <tspan class="cc">...............</tspan> <tspan class="val">CachyOS (Arch Linux), Windows 11</tspan></text>
+<text x="488" y="102" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Kernel</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Linux 7.1.4-cachyos</tspan></text>
 <text x="488" y="122" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Host</tspan> <tspan class="cc">.............</tspan> <tspan class="val">Kocaeli University</tspan></text>
 <text x="488" y="142" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Shell</tspan> <tspan class="cc">............</tspan> <tspan class="val">zsh, fish</tspan></text>
 <text x="488" y="162" fill="#c9d1d9" xml:space="preserve"><tspan class="key">WM</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Hyprland, niri, KDE Plasma</tspan></text>
 <text x="488" y="182" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Terminal</tspan> <tspan class="cc">.........</tspan> <tspan class="val">kitty, alacritty, ghostty</tspan></text>
 <text x="488" y="202" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Editor</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Neovim (LazyVim), Vim, VSCode</tspan></text>
 <text x="488" y="242" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Code</tspan> <tspan class="cc">.............</tspan> <tspan class="val">C, C++, Python, Go, Lua, Bash</tspan></text>
-<text x="488" y="262" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Spoken</tspan> <tspan class="cc">...........</tspan> <tspan class="val">&lt;to be filled in&gt;</tspan></text>
-<text x="488" y="302" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.SW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">&lt;to be filled in&gt;</tspan></text>
-<text x="488" y="322" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.HW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">STM32, Raspberry Pi</tspan></text>
-<text x="488" y="362" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Field</tspan> <tspan class="cc">............</tspan> <tspan class="val">communication, autonomous systems</tspan></text>
-<text x="488" y="382" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Email</tspan> <tspan class="cc">............</tspan> <tspan class="val">alihancaliskan@mail.com</tspan></text>
-<text x="488" y="402" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Work</tspan> <tspan class="cc">.............</tspan> <tspan class="val">alihancaliskan@workmail.com</tspan></text>
-<text x="488" y="442" fill="#c9d1d9" font-weight="bold">- GitHub Stats -</text>
-<text x="488" y="462" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Repos</tspan> <tspan class="cc">............</tspan> <tspan class="val">12 {Contributed: 4} | Stars: 37</tspan></text>
-<text x="488" y="482" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">1,204 | Followers: 18</tspan></text>
-<text x="488" y="502" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">84,213 (121,004++, 36,791--)</tspan></text>
+<text x="488" y="262" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Spoken</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Turkish, English</tspan></text>
+<text x="488" y="302" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Team</tspan> <tspan class="cc">.............</tspan> <tspan class="val">AURA Team</tspan></text>
+<text x="488" y="322" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Field</tspan> <tspan class="cc">............</tspan> <tspan class="val">communication, autonomous system design</tspan></text>
+<text x="488" y="342" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.SW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">autonomous systems, dotfiles</tspan></text>
+<text x="488" y="362" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.HW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">STM32, Raspberry Pi</tspan></text>
+<text x="488" y="402" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Email</tspan> <tspan class="cc">............</tspan> <tspan class="val">alihancaliskan@mail.com</tspan></text>
+<text x="488" y="422" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Work</tspan> <tspan class="cc">.............</tspan> <tspan class="val">alihancaliskan@workmail.com</tspan></text>
+<text x="488" y="442" fill="#c9d1d9" xml:space="preserve"><tspan class="key">LinkedIn</tspan> <tspan class="cc">.........</tspan> <tspan class="val">alihan-caliskan</tspan></text>
+<text x="488" y="462" fill="#c9d1d9" xml:space="preserve"><tspan class="key">X</tspan> <tspan class="cc">................</tspan> <tspan class="val">AlihanCaliskanx</tspan></text>
+<text x="488" y="482" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Discord</tspan> <tspan class="cc">..........</tspan> <tspan class="val">370240411395948546</tspan></text>
 </svg>

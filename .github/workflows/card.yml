@@ -1,0 +1,49 @@
+name: Profile card
+
+on:
+  schedule:
+    # Once a day. The contributor-stats endpoint is cached per repo, so a daily
+    # run stays far inside the rate limit.
+    - cron: "0 4 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Needed so the job can push the regenerated SVGs back.
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate the card
+        env:
+          # Classic PAT with repo + read:user. Without it generate.py still
+          # renders the static half and only drops the stats rows.
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: python generate.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg cache/
+          if git diff --cached --quiet; then
+            echo "No change."
+          else
+            # Pushing with GITHUB_TOKEN does not trigger workflows, so the
+            # push trigger above cannot loop.
+            git commit -m "Update profile card"
+            git push
+          fi
