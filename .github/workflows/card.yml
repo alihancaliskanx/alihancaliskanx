@@ -27,10 +27,23 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check the token is present
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          # generate.py degrades to a stats-less card when the token is missing,
+          # which is right locally but wrong in CI: it would quietly publish a
+          # half card. Fail loudly instead.
+          if [ -z "$ACCESS_TOKEN" ]; then
+            echo "::error::ACCESS_TOKEN secret is empty or not set. Add it under"\
+                 "Settings > Secrets and variables > Actions > Secrets."
+            exit 1
+          fi
+          echo "ACCESS_TOKEN present (${#ACCESS_TOKEN} chars)."
+
       - name: Generate the card
         env:
-          # Classic PAT with repo + read:user. Without it generate.py still
-          # renders the static half and only drops the stats rows.
+          # Classic PAT with repo + read:user.
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python generate.py
 
@@ -38,7 +51,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg cache/
+          # cache/ only exists once the LOC pass has run, and `git add` errors on
+          # a pathspec that matches nothing — so add it only when it is there.
+          git add dark_mode.svg light_mode.svg
+          [ -d cache ] && git add cache
           if git diff --cached --quiet; then
             echo "No change."
           else
