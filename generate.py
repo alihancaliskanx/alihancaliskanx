@@ -83,6 +83,8 @@ def _request(url: str, data: dict | None = None, retries: int = 4):
     req.add_header("Authorization", f"bearer {TOKEN}")
     req.add_header("Accept", "application/vnd.github+json")
     req.add_header("User-Agent", f"{USER}-profile-card")
+    if body:
+        req.add_header("Content-Type", "application/json")
 
     for attempt in range(retries):
         try:
@@ -238,6 +240,14 @@ def build_rows():
                 add=add, dele=dele,
             )
         except Exception as e:                      # noqa: BLE001
+            # Locally a failed fetch should still give you a card to look at.
+            # In CI it must not: a swallowed error there publishes half a card
+            # and the run still goes green.
+            if os.environ.get("GITHUB_ACTIONS"):
+                import traceback
+                print(f"::error::stats fetch failed: {type(e).__name__}: {e}")
+                traceback.print_exc()
+                raise
             print(f"  ! stats unavailable: {e}", file=sys.stderr)
     else:
         print("  ! ACCESS_TOKEN not set, rendering without stats", file=sys.stderr)
