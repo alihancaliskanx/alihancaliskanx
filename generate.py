@@ -94,7 +94,13 @@ def _request(url: str, data: dict | None = None, retries: int = 4):
                 if r.status == 202:
                     time.sleep(3 * (attempt + 1))
                     continue
-                return json.loads(r.read().decode())
+                raw = r.read().decode()
+                # An empty repository gets 204 No Content with an empty body,
+                # which is a success status, so it never raises HTTPError and
+                # json.loads("") blows up instead. Treat it as "no data".
+                if not raw.strip():
+                    return None
+                return json.loads(raw)
         except urllib.error.HTTPError as e:
             if e.code in (403, 502, 503) and attempt < retries - 1:
                 time.sleep(5 * (attempt + 1))
@@ -182,11 +188,13 @@ def fetch_loc(repos) -> tuple[int, int]:
         try:
             stats = _request(
                 f"https://api.github.com/repos/{USER}/{name}/stats/contributors")
-        except urllib.error.HTTPError as e:
-            print(f"  ! {name}: HTTP {e.code}, skipped", file=sys.stderr)
+        except (urllib.error.HTTPError, json.JSONDecodeError) as e:
+            print(f"  ! {name}: {e}, skipped", file=sys.stderr)
             continue
         if not stats:
-            print(f"  ! {name}: no stats yet, skipped", file=sys.stderr)
+            # Empty repo (204) or stats still being computed after the retries.
+            print(f"  ! {name}: no contributor stats, skipped", file=sys.stderr)
+            cache[name] = {"pushedAt": pushed, "add": 0, "del": 0}
             continue
         ra = rd = 0
         for contributor in stats:
