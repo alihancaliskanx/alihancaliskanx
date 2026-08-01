@@ -297,8 +297,19 @@ def render(rows, art, theme: str) -> str:
                     [len(d) for k, d in rows if k == "hdr"] + [34])
     art_cols = max(len(l) for l in art)
 
+    # Centre the art against the text column instead of pinning it to the top.
+    # The text side is usually the taller of the two, and leaving the leftover
+    # rows all at the bottom reads as an unfinished gap.
+    art = list(art)
+    while art and not art[0].strip():
+        art.pop(0)
+    while art and not art[-1].strip():
+        art.pop()
+    total_rows = max(len(art), len(rows))
+    art_top = (total_rows - len(art)) // 2
+
     width = round(PAD * 2 + (art_cols + GAP + text_cols) * CW)
-    height = round(PAD * 2 + max(len(art), len(rows)) * LH)
+    height = round(PAD * 2 + total_rows * LH)
     text_x = round(PAD + (art_cols + GAP) * CW)
 
     o = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -317,7 +328,7 @@ def render(rows, art, theme: str) -> str:
     # xml:space as an attribute, not only the CSS above: non-browser renderers
     # ignore `white-space: pre` and collapse the leading spaces, which shifts
     # every art line left and wrecks the picture.
-    y = PAD + FS
+    y = PAD + FS + art_top * LH
     for line in art:
         o.append(f'<text x="{PAD}" y="{y}" fill="{c["fg"]}" '
                  f'xml:space="preserve">{escape(line)}</text>')
