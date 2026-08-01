@@ -1,3 +1,4 @@
 # Local preview render, regenerate with:
 #   python3 make_card.py && magick -density 140 dark_mode.svg preview.png
 preview.png
+__pycache__/
