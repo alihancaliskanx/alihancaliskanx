@@ -36,7 +36,7 @@ text, tspan {white-space: pre;}
 <text x="26" y="582" fill="#24292f" xml:space="preserve">           ╩ ╩ ╩═╝ ╩ ╩ ╩ ╩ ╩ ╝╚╝</text>
 <text x="488" y="42" fill="#24292f" font-weight="bold">alihan@caliskan</text>
 <text x="488" y="62" class="cc">----------------------------------------------------------</text>
-<text x="488" y="82" fill="#24292f" xml:space="preserve"><tspan class="key">Uptime</tspan> <tspan class="cc">...........</tspan> <tspan class="val">7 years, 1 month, 2 days</tspan></text>
+<text x="488" y="82" fill="#24292f" xml:space="preserve"><tspan class="key">Uptime</tspan> <tspan class="cc">...........</tspan> <tspan class="val">7 years, 1 month, 3 days</tspan></text>
 <text x="488" y="102" fill="#24292f" xml:space="preserve"><tspan class="key">OS</tspan> <tspan class="cc">...............</tspan> <tspan class="val">CachyOS (Arch Linux), Windows 11</tspan></text>
 <text x="488" y="122" fill="#24292f" xml:space="preserve"><tspan class="key">Kernel</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Linux 7.1.4-cachyos</tspan></text>
 <text x="488" y="142" fill="#24292f" xml:space="preserve"><tspan class="key">Host</tspan> <tspan class="cc">.............</tspan> <tspan class="val">Kocaeli University</tspan></text>
@@ -58,6 +58,6 @@ text, tspan {white-space: pre;}
 <text x="488" y="542" fill="#24292f" font-weight="bold">- GitHub Stats -</text>
 <text x="488" y="562" fill="#24292f" xml:space="preserve"><tspan class="key">Repos</tspan> <tspan class="cc">............</tspan> <tspan class="val">15 {Contributed: 9}</tspan></text>
 <text x="488" y="582" fill="#24292f" xml:space="preserve"><tspan class="key">Stars</tspan> <tspan class="cc">............</tspan> <tspan class="val">1 | Followers: 9</tspan></text>
-<text x="488" y="602" fill="#24292f" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">449</tspan></text>
-<text x="488" y="622" fill="#24292f" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">38,545</tspan> <tspan class="cc">(</tspan><tspan class="add">74,522++</tspan><tspan class="cc">, </tspan><tspan class="del">35,977--</tspan><tspan class="cc">)</tspan></text>
+<text x="488" y="602" fill="#24292f" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">484</tspan></text>
+<text x="488" y="622" fill="#24292f" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">38,326</tspan> <tspan class="cc">(</tspan><tspan class="add">80,400++</tspan><tspan class="cc">, </tspan><tspan class="del">42,074--</tspan><tspan class="cc">)</tspan></text>
 </svg>
