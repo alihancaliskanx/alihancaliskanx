@@ -41,7 +41,7 @@ CACHE = HERE / "cache" / "loc.json"
 # ── static rows ──────────────────────────────────────────────────────────────
 HEADER = "alihan@caliskan"
 PROFILE = [
-    ("OS",        "CachyOS (Arch Linux), Windows 11"),
+    ("OS",        "Omarchy (Arch Linux), Windows 11"),
     ("Kernel",    "Linux 7.1.4-cachyos"),
     ("Host",      "Kocaeli University"),
     ("Shell",     "zsh, fish"),
