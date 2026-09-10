@@ -42,27 +42,33 @@ CACHE = HERE / "cache" / "loc.json"
 HEADER = "alihan@caliskan"
 PROFILE = [
     ("OS",        "Omarchy (Arch Linux), Windows 11"),
-    ("Kernel",    "Linux 7.1.4-cachyos"),
+    ("Kernel",    "Linux 7.2.3-arch1-3"),
     ("Host",      "Kocaeli University"),
     ("Shell",     "zsh, fish"),
     ("WM",        "Hyprland, niri, KDE Plasma"),
-    ("Terminal",  "kitty, alacritty, ghostty"),
+    ("Terminal",  "alacritty, ghostty"),
     ("Editor",    "Neovim (LazyVim), Vim, VSCode"),
     (),
     ("Code",      "C, C++, Python, Go, Lua, Bash"),
     ("Spoken",    "Turkish, English"),
     (),
     ("Team",      "AURA Team"),
-    ("Field",     "communication, autonomous system design"),
+    ("Field",     "Embedded systems & autonomous vehicles"),
     ("Hobby.SW",  "autonomous systems, dotfiles"),
     ("Hobby.HW",  "STM32, Raspberry Pi"),
     (),
-    ("Email",     "alihancaliskan@mail.com"),
     ("Work",      "alihancaliskan@workmail.com"),
     ("LinkedIn",  "alihan-caliskan"),
     ("X",         "AlihanCaliskanx"),
     ("Discord",   "370240411395948546"),
 ]
+
+LINKS = {
+    "Work":     "mailto:alihancaliskan@workmail.com",
+    "LinkedIn": "https://linkedin.com/in/alihan-caliskan",
+    "X":        "https://x.com/AlihanCaliskanx",
+    "Discord":  "https://discord.com/users/370240411395948546",
+}
 
 # ── rendering constants ──────────────────────────────────────────────────────
 FS, LH, PAD, GAP = 16, 20, 26, 4
@@ -354,9 +360,13 @@ def render(rows, art, theme: str) -> str:
                        f'<tspan class="cc">)</tspan>')
             else:
                 val = f'<tspan class="val">{escape(v)}</tspan>'
-            o.append(f'<text x="{text_x}" y="{y}" fill="{c["fg"]}" xml:space="preserve">'
-                     f'<tspan class="key">{escape(k)}</tspan> '
-                     f'<tspan class="cc">{dots}</tspan> {val}</text>')
+            line = (f'<text x="{text_x}" y="{y}" fill="{c["fg"]}" xml:space="preserve">'
+                    f'<tspan class="key">{escape(k)}</tspan> '
+                    f'<tspan class="cc">{dots}</tspan> {val}</text>')
+            href = LINKS.get(k)
+            if href:
+                line = f'<a href="{escape(href)}">{line}</a>'
+            o.append(line)
         y += LH
 
     o.append('</svg>')

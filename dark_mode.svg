@@ -1,63 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1073px" height="652px" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" width="1063px" height="592px" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" font-size="16px">
 <style>
 @font-face {src: local('Consolas'); font-family: 'ConsolasFallback'; font-display: swap; size-adjust: 109%;}
 .key{fill:#ffa657} .val{fill:#a5d6ff} .cc{fill:#616e7f}
 .add{fill:#3fb950} .del{fill:#f85149}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1073px" height="652px" rx="15" fill="#161b22"/>
-<text x="26" y="62" fill="#c9d1d9" xml:space="preserve">              ..:-+*#####%#+:</text>
-<text x="26" y="82" fill="#c9d1d9" xml:space="preserve">           :=*%@@@@@@@@@@@@@@+</text>
-<text x="26" y="102" fill="#c9d1d9" xml:space="preserve">         -#@@@@@@@@@@@@@@@@@@@*.</text>
-<text x="26" y="122" fill="#c9d1d9" xml:space="preserve">        +@@@@@@%%###******##%@@#+.</text>
-<text x="26" y="142" fill="#c9d1d9" xml:space="preserve">       +@@@%*+=-----------===#@@@#.</text>
-<text x="26" y="162" fill="#c9d1d9" xml:space="preserve">      .@@@%-:::::::--------===#@@@:</text>
-<text x="26" y="182" fill="#c9d1d9" xml:space="preserve">      -@@@+--:::::::::::----==+@@%.</text>
-<text x="26" y="202" fill="#c9d1d9" xml:space="preserve">      :@@@=----:::::::::=++++==#@%.</text>
-<text x="26" y="222" fill="#c9d1d9" xml:space="preserve">      .%@*-==+++**=-::=*#*+++++=@%</text>
-<text x="26" y="242" fill="#c9d1d9" xml:space="preserve">       +@=-====**++=:-+*+*#**+==#@:</text>
-<text x="26" y="262" fill="#c9d1d9" xml:space="preserve">       =%=--=++**++=--+++++++==-**.</text>
-<text x="26" y="282" fill="#c9d1d9" xml:space="preserve">       :++---:---=--:-===------=++</text>
-<text x="26" y="302" fill="#c9d1d9" xml:space="preserve">        ==-:::::::--::-==--:--==+=</text>
-<text x="26" y="322" fill="#c9d1d9" xml:space="preserve">        :-=-:::::--=--++=--:--===:</text>
-<text x="26" y="342" fill="#c9d1d9" xml:space="preserve">         .:--::::::---==-----==:</text>
-<text x="26" y="362" fill="#c9d1d9" xml:space="preserve">           :-----======++======</text>
-<text x="26" y="382" fill="#c9d1d9" xml:space="preserve">            ----=----=========.</text>
-<text x="26" y="402" fill="#c9d1d9" xml:space="preserve">           .=-=----:-----==+++#.</text>
-<text x="26" y="422" fill="#c9d1d9" xml:space="preserve">           %+-===--:::--==+++*@*</text>
-<text x="26" y="442" fill="#c9d1d9" xml:space="preserve">          :@#--=++++++*****+*%@#=:.</text>
-<text x="26" y="462" fill="#c9d1d9" xml:space="preserve">    .-===+*#@*=-==+**#***++*%@%***#*=-:.</text>
-<text x="26" y="482" fill="#c9d1d9" xml:space="preserve"> .-+**%#*##+#@*=--========+%@%****%%#****=-.</text>
+<rect width="1063px" height="592px" rx="15" fill="#161b22"/>
+<text x="26" y="42" fill="#c9d1d9" xml:space="preserve">              ..:-+*#####%#+:</text>
+<text x="26" y="62" fill="#c9d1d9" xml:space="preserve">           :=*%@@@@@@@@@@@@@@+</text>
+<text x="26" y="82" fill="#c9d1d9" xml:space="preserve">         -#@@@@@@@@@@@@@@@@@@@*.</text>
+<text x="26" y="102" fill="#c9d1d9" xml:space="preserve">        +@@@@@@%%###******##%@@#+.</text>
+<text x="26" y="122" fill="#c9d1d9" xml:space="preserve">       +@@@%*+=-----------===#@@@#.</text>
+<text x="26" y="142" fill="#c9d1d9" xml:space="preserve">      .@@@%-:::::::--------===#@@@:</text>
+<text x="26" y="162" fill="#c9d1d9" xml:space="preserve">      -@@@+--:::::::::::----==+@@%.</text>
+<text x="26" y="182" fill="#c9d1d9" xml:space="preserve">      :@@@=----:::::::::=++++==#@%.</text>
+<text x="26" y="202" fill="#c9d1d9" xml:space="preserve">      .%@*-==+++**=-::=*#*+++++=@%</text>
+<text x="26" y="222" fill="#c9d1d9" xml:space="preserve">       +@=-====**++=:-+*+*#**+==#@:</text>
+<text x="26" y="242" fill="#c9d1d9" xml:space="preserve">       =%=--=++**++=--+++++++==-**.</text>
+<text x="26" y="262" fill="#c9d1d9" xml:space="preserve">       :++---:---=--:-===------=++</text>
+<text x="26" y="282" fill="#c9d1d9" xml:space="preserve">        ==-:::::::--::-==--:--==+=</text>
+<text x="26" y="302" fill="#c9d1d9" xml:space="preserve">        :-=-:::::--=--++=--:--===:</text>
+<text x="26" y="322" fill="#c9d1d9" xml:space="preserve">         .:--::::::---==-----==:</text>
+<text x="26" y="342" fill="#c9d1d9" xml:space="preserve">           :-----======++======</text>
+<text x="26" y="362" fill="#c9d1d9" xml:space="preserve">            ----=----=========.</text>
+<text x="26" y="382" fill="#c9d1d9" xml:space="preserve">           .=-=----:-----==+++#.</text>
+<text x="26" y="402" fill="#c9d1d9" xml:space="preserve">           %+-===--:::--==+++*@*</text>
+<text x="26" y="422" fill="#c9d1d9" xml:space="preserve">          :@#--=++++++*****+*%@#=:.</text>
+<text x="26" y="442" fill="#c9d1d9" xml:space="preserve">    .-===+*#@*=-==+**#***++*%@%***#*=-:.</text>
+<text x="26" y="462" fill="#c9d1d9" xml:space="preserve"> .-+**%#*##+#@*=--========+%@%****%%#****=-.</text>
+<text x="26" y="482" fill="#c9d1d9" xml:space="preserve"></text>
 <text x="26" y="502" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="26" y="522" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="26" y="542" fill="#c9d1d9" xml:space="preserve">           ╔═╗ ╦   ╦ ╦ ╦ ╔═╗ ╔╗╔</text>
-<text x="26" y="562" fill="#c9d1d9" xml:space="preserve">           ╠═╣ ║   ║ ╠═╣ ╠═╣ ║║║</text>
-<text x="26" y="582" fill="#c9d1d9" xml:space="preserve">           ╩ ╩ ╩═╝ ╩ ╩ ╩ ╩ ╩ ╝╚╝</text>
+<text x="26" y="522" fill="#c9d1d9" xml:space="preserve">           ╔═╗ ╦   ╦ ╦ ╦ ╔═╗ ╔╗╔</text>
+<text x="26" y="542" fill="#c9d1d9" xml:space="preserve">           ╠═╣ ║   ║ ╠═╣ ╠═╣ ║║║</text>
+<text x="26" y="562" fill="#c9d1d9" xml:space="preserve">           ╩ ╩ ╩═╝ ╩ ╩ ╩ ╩ ╩ ╝╚╝</text>
 <text x="488" y="42" fill="#c9d1d9" font-weight="bold">alihan@caliskan</text>
-<text x="488" y="62" class="cc">----------------------------------------------------------</text>
-<text x="488" y="82" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Uptime</tspan> <tspan class="cc">...........</tspan> <tspan class="val">7 years, 1 month, 15 days</tspan></text>
-<text x="488" y="102" fill="#c9d1d9" xml:space="preserve"><tspan class="key">OS</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Omarchy (Arch Linux), Windows 11</tspan></text>
-<text x="488" y="122" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Kernel</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Linux 7.1.4-cachyos</tspan></text>
-<text x="488" y="142" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Host</tspan> <tspan class="cc">.............</tspan> <tspan class="val">Kocaeli University</tspan></text>
-<text x="488" y="162" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Shell</tspan> <tspan class="cc">............</tspan> <tspan class="val">zsh, fish</tspan></text>
-<text x="488" y="182" fill="#c9d1d9" xml:space="preserve"><tspan class="key">WM</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Hyprland, niri, KDE Plasma</tspan></text>
-<text x="488" y="202" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Terminal</tspan> <tspan class="cc">.........</tspan> <tspan class="val">kitty, alacritty, ghostty</tspan></text>
-<text x="488" y="222" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Editor</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Neovim (LazyVim), Vim, VSCode</tspan></text>
-<text x="488" y="262" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Code</tspan> <tspan class="cc">.............</tspan> <tspan class="val">C, C++, Python, Go, Lua, Bash</tspan></text>
-<text x="488" y="282" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Spoken</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Turkish, English</tspan></text>
-<text x="488" y="322" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Team</tspan> <tspan class="cc">.............</tspan> <tspan class="val">AURA Team</tspan></text>
-<text x="488" y="342" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Field</tspan> <tspan class="cc">............</tspan> <tspan class="val">communication, autonomous system design</tspan></text>
-<text x="488" y="362" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.SW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">autonomous systems, dotfiles</tspan></text>
-<text x="488" y="382" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.HW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">STM32, Raspberry Pi</tspan></text>
-<text x="488" y="422" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Email</tspan> <tspan class="cc">............</tspan> <tspan class="val">alihancaliskan@mail.com</tspan></text>
-<text x="488" y="442" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Work</tspan> <tspan class="cc">.............</tspan> <tspan class="val">alihancaliskan@workmail.com</tspan></text>
-<text x="488" y="462" fill="#c9d1d9" xml:space="preserve"><tspan class="key">LinkedIn</tspan> <tspan class="cc">.........</tspan> <tspan class="val">alihan-caliskan</tspan></text>
-<text x="488" y="482" fill="#c9d1d9" xml:space="preserve"><tspan class="key">X</tspan> <tspan class="cc">................</tspan> <tspan class="val">AlihanCaliskanx</tspan></text>
-<text x="488" y="502" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Discord</tspan> <tspan class="cc">..........</tspan> <tspan class="val">370240411395948546</tspan></text>
-<text x="488" y="542" fill="#c9d1d9" font-weight="bold">- GitHub Stats -</text>
-<text x="488" y="562" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Repos</tspan> <tspan class="cc">............</tspan> <tspan class="val">16 {Contributed: 10}</tspan></text>
-<text x="488" y="582" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Stars</tspan> <tspan class="cc">............</tspan> <tspan class="val">2 | Followers: 9</tspan></text>
-<text x="488" y="602" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">492</tspan></text>
-<text x="488" y="622" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">500,437</tspan> <tspan class="cc">(</tspan><tspan class="add">544,857++</tspan><tspan class="cc">, </tspan><tspan class="del">44,420--</tspan><tspan class="cc">)</tspan></text>
+<text x="488" y="62" class="cc">---------------------------------------------------------</text>
+<text x="488" y="82" fill="#c9d1d9" xml:space="preserve"><tspan class="key">OS</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Omarchy (Arch Linux), Windows 11</tspan></text>
+<text x="488" y="102" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Kernel</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Linux 7.2.3-arch1-3</tspan></text>
+<text x="488" y="122" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Host</tspan> <tspan class="cc">.............</tspan> <tspan class="val">Kocaeli University</tspan></text>
+<text x="488" y="142" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Shell</tspan> <tspan class="cc">............</tspan> <tspan class="val">zsh, fish</tspan></text>
+<text x="488" y="162" fill="#c9d1d9" xml:space="preserve"><tspan class="key">WM</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Hyprland, niri, KDE Plasma</tspan></text>
+<text x="488" y="182" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Terminal</tspan> <tspan class="cc">.........</tspan> <tspan class="val">alacritty, ghostty</tspan></text>
+<text x="488" y="202" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Editor</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Neovim (LazyVim), Vim, VSCode</tspan></text>
+<text x="488" y="242" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Code</tspan> <tspan class="cc">.............</tspan> <tspan class="val">C, C++, Python, Go, Lua, Bash</tspan></text>
+<text x="488" y="262" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Spoken</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Turkish, English</tspan></text>
+<text x="488" y="302" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Team</tspan> <tspan class="cc">.............</tspan> <tspan class="val">AURA Team</tspan></text>
+<text x="488" y="322" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Field</tspan> <tspan class="cc">............</tspan> <tspan class="val">Embedded systems &amp; autonomous vehicles</tspan></text>
+<text x="488" y="342" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.SW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">autonomous systems, dotfiles</tspan></text>
+<text x="488" y="362" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Hobby.HW</tspan> <tspan class="cc">.........</tspan> <tspan class="val">STM32, Raspberry Pi</tspan></text>
+<a href="mailto:alihancaliskan@workmail.com"><text x="488" y="402" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Work</tspan> <tspan class="cc">.............</tspan> <tspan class="val">alihancaliskan@workmail.com</tspan></text></a>
+<a href="https://linkedin.com/in/alihan-caliskan"><text x="488" y="422" fill="#c9d1d9" xml:space="preserve"><tspan class="key">LinkedIn</tspan> <tspan class="cc">.........</tspan> <tspan class="val">alihan-caliskan</tspan></text></a>
+<a href="https://x.com/AlihanCaliskanx"><text x="488" y="442" fill="#c9d1d9" xml:space="preserve"><tspan class="key">X</tspan> <tspan class="cc">................</tspan> <tspan class="val">AlihanCaliskanx</tspan></text></a>
+<a href="https://discord.com/users/370240411395948546"><text x="488" y="462" fill="#c9d1d9" xml:space="preserve"><tspan class="key">Discord</tspan> <tspan class="cc">..........</tspan> <tspan class="val">370240411395948546</tspan></text></a>
 </svg>
