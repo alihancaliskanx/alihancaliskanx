@@ -24,6 +24,11 @@
   "del": 38,
   "pushedAt": "2025-11-24T12:32:44Z"
  },
+ "Digital_Twin": {
+  "add": 0,
+  "del": 0,
+  "pushedAt": "2026-09-18T11:32:15Z"
+ },
  "EnglishMan": {
   "add": 464396,
   "del": 78,
@@ -34,6 +39,11 @@
   "del": 27127,
   "pushedAt": "2026-01-01T20:02:24Z"
  },
+ "Yeke": {
+  "add": 0,
+  "del": 0,
+  "pushedAt": "2026-09-18T18:07:37Z"
+ },
  "alihancaliskan.com.tr": {
   "add": 23079,
   "del": 2927,
@@ -42,7 +52,7 @@
  "alihancaliskanx": {
   "add": 1346,
   "del": 769,
-  "pushedAt": "2026-09-17T08:58:36Z"
+  "pushedAt": "2026-09-18T08:33:40Z"
  },
  "aura_auv": {
   "add": 1,
