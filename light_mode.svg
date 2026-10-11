@@ -36,9 +36,9 @@ text, tspan {white-space: pre;}
 <text x="26" y="582" fill="#24292f" xml:space="preserve">           ╩ ╩ ╩═╝ ╩ ╩ ╩ ╩ ╩ ╝╚╝</text>
 <text x="488" y="42" fill="#24292f" font-weight="bold">alihan@caliskan</text>
 <text x="488" y="62" class="cc">---------------------------------------------------------</text>
-<text x="488" y="82" fill="#24292f" xml:space="preserve"><tspan class="key">Uptime</tspan> <tspan class="cc">...........</tspan> <tspan class="val">7 years, 2 months, 16 days</tspan></text>
+<text x="488" y="82" fill="#24292f" xml:space="preserve"><tspan class="key">Uptime</tspan> <tspan class="cc">...........</tspan> <tspan class="val">7 years, 2 months, 15 days</tspan></text>
 <text x="488" y="102" fill="#24292f" xml:space="preserve"><tspan class="key">OS</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Omarchy (Arch Linux), Windows 11</tspan></text>
-<text x="488" y="122" fill="#24292f" xml:space="preserve"><tspan class="key">Kernel</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Linux 7.2.3-arch1-3</tspan></text>
+<text x="488" y="122" fill="#24292f" xml:space="preserve"><tspan class="key">Kernel</tspan> <tspan class="cc">...........</tspan> <tspan class="val">Linux 7.2.5-3-omarchy</tspan></text>
 <text x="488" y="142" fill="#24292f" xml:space="preserve"><tspan class="key">Host</tspan> <tspan class="cc">.............</tspan> <tspan class="val">Kocaeli University</tspan></text>
 <text x="488" y="162" fill="#24292f" xml:space="preserve"><tspan class="key">Shell</tspan> <tspan class="cc">............</tspan> <tspan class="val">zsh, fish</tspan></text>
 <text x="488" y="182" fill="#24292f" xml:space="preserve"><tspan class="key">WM</tspan> <tspan class="cc">...............</tspan> <tspan class="val">Hyprland, niri, KDE Plasma</tspan></text>
@@ -57,6 +57,6 @@ text, tspan {white-space: pre;}
 <text x="488" y="522" fill="#24292f" font-weight="bold">- GitHub Stats -</text>
 <text x="488" y="542" fill="#24292f" xml:space="preserve"><tspan class="key">Repos</tspan> <tspan class="cc">............</tspan> <tspan class="val">19 {Contributed: 10}</tspan></text>
 <text x="488" y="562" fill="#24292f" xml:space="preserve"><tspan class="key">Stars</tspan> <tspan class="cc">............</tspan> <tspan class="val">2 | Followers: 11</tspan></text>
-<text x="488" y="582" fill="#24292f" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">560</tspan></text>
-<text x="488" y="602" fill="#24292f" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">502,268</tspan> <tspan class="cc">(</tspan><tspan class="add">547,609++</tspan><tspan class="cc">, </tspan><tspan class="del">45,341--</tspan><tspan class="cc">)</tspan></text>
+<text x="488" y="582" fill="#24292f" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">573</tspan></text>
+<text x="488" y="602" fill="#24292f" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">502,899</tspan> <tspan class="cc">(</tspan><tspan class="add">550,008++</tspan><tspan class="cc">, </tspan><tspan class="del">47,109--</tspan><tspan class="cc">)</tspan></text>
 </svg>
