@@ -57,6 +57,6 @@ text, tspan {white-space: pre;}
 <text x="488" y="522" fill="#24292f" font-weight="bold">- GitHub Stats -</text>
 <text x="488" y="542" fill="#24292f" xml:space="preserve"><tspan class="key">Repos</tspan> <tspan class="cc">............</tspan> <tspan class="val">19 {Contributed: 10}</tspan></text>
 <text x="488" y="562" fill="#24292f" xml:space="preserve"><tspan class="key">Stars</tspan> <tspan class="cc">............</tspan> <tspan class="val">2 | Followers: 11</tspan></text>
-<text x="488" y="582" fill="#24292f" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">573</tspan></text>
-<text x="488" y="602" fill="#24292f" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">502,899</tspan> <tspan class="cc">(</tspan><tspan class="add">550,008++</tspan><tspan class="cc">, </tspan><tspan class="del">47,109--</tspan><tspan class="cc">)</tspan></text>
+<text x="488" y="582" fill="#24292f" xml:space="preserve"><tspan class="key">Commits</tspan> <tspan class="cc">..........</tspan> <tspan class="val">577</tspan></text>
+<text x="488" y="602" fill="#24292f" xml:space="preserve"><tspan class="key">Lines</tspan> <tspan class="cc">............</tspan> <tspan class="val">501,866</tspan> <tspan class="cc">(</tspan><tspan class="add">548,109++</tspan><tspan class="cc">, </tspan><tspan class="del">46,243--</tspan><tspan class="cc">)</tspan></text>
 </svg>
