@@ -23,6 +23,7 @@ instead of overflowing it.
 """
 from __future__ import annotations
 
+import calendar
 import json
 import os
 import sys
@@ -42,7 +43,7 @@ CACHE = HERE / "cache" / "loc.json"
 HEADER = "alihan@caliskan"
 PROFILE = [
     ("OS",        "Omarchy (Arch Linux), Windows 11"),
-    ("Kernel",    "Linux 7.2.3-arch1-3"),
+    ("Kernel",    "Linux 7.2.5-3-omarchy"),
     ("Host",      "Kocaeli University"),
     ("Shell",     "zsh, fish"),
     ("WM",        "Hyprland, niri, KDE Plasma"),
@@ -83,6 +84,10 @@ THEMES = {
 
 
 # ── GitHub API ───────────────────────────────────────────────────────────────
+class StatsPending(Exception):
+    """GitHub kept answering 202: the numbers exist but are not built yet."""
+
+
 def _request(url: str, data: dict | None = None, retries: int = 4):
     body = json.dumps(data).encode() if data else None
     req = urllib.request.Request(url, data=body, method="POST" if data else "GET")
@@ -112,7 +117,9 @@ def _request(url: str, data: dict | None = None, retries: int = 4):
                 time.sleep(5 * (attempt + 1))
                 continue
             raise
-    return None
+    # Only the 202 branch falls out of the loop. Returning None here would look
+    # like the empty-repository case and get cached as a real zero.
+    raise StatsPending(url)
 
 
 def graphql(query: str, **variables):
@@ -125,7 +132,7 @@ def graphql(query: str, **variables):
 
 def fetch_basics():
     q = """
-    query($login: String!) {
+    query($login: String!, $after: String) {
       user(login: $login) {
         createdAt
         followers { totalCount }
@@ -133,14 +140,22 @@ def fetch_basics():
           contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY]
           first: 1
         ) { totalCount }
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false,
+        repositories(first: 100, after: $after, ownerAffiliations: OWNER,
+                     isFork: false,
                      orderBy: {field: PUSHED_AT, direction: DESC}) {
           totalCount
+          pageInfo { hasNextPage endCursor }
           nodes { name stargazerCount pushedAt isPrivate }
         }
       }
     }"""
-    return graphql(q, login=USER)["user"]
+    user = graphql(q, login=USER, after=None)["user"]
+    page = user["repositories"]
+    while page["pageInfo"]["hasNextPage"]:
+        page = graphql(q, login=USER, after=page["pageInfo"]["endCursor"]
+                       )["user"]["repositories"]
+        user["repositories"]["nodes"] += page["nodes"]
+    return user
 
 
 def fetch_commits(created_at: str) -> int:
@@ -187,29 +202,33 @@ def fetch_loc(repos) -> tuple[int, int]:
     for repo in repos:
         name, pushed = repo["name"], repo["pushedAt"]
         hit = cache.get(name)
-        if hit and hit.get("pushedAt") == pushed:
+        # A zero without the "empty" mark predates the mark and may be a 202
+        # that was stored as a result, so it is fetched again.
+        if hit and hit.get("pushedAt") == pushed and (
+                hit["add"] or hit["del"] or hit.get("empty")):
             add += hit["add"]
             dele += hit["del"]
             continue
         try:
             stats = _request(
                 f"https://api.github.com/repos/{USER}/{name}/stats/contributors")
+        except StatsPending:
+            print(f"  ! {name}: stats still being computed, skipped",
+                  file=sys.stderr)
+            continue
         except (urllib.error.HTTPError, json.JSONDecodeError) as e:
             print(f"  ! {name}: {e}, skipped", file=sys.stderr)
             continue
-        if not stats:
-            # Empty repo (204) or stats still being computed after the retries.
-            print(f"  ! {name}: no contributor stats, skipped", file=sys.stderr)
-            cache[name] = {"pushedAt": pushed, "add": 0, "del": 0}
-            continue
         ra = rd = 0
-        for contributor in stats:
+        for contributor in stats or []:
             if (contributor.get("author") or {}).get("login") != USER:
                 continue
             for week in contributor["weeks"]:
                 ra += week["a"]
                 rd += week["d"]
         cache[name] = {"pushedAt": pushed, "add": ra, "del": rd}
+        if not (ra or rd):
+            cache[name]["empty"] = True
         add += ra
         dele += rd
 
@@ -221,15 +240,19 @@ def fetch_loc(repos) -> tuple[int, int]:
 def human_age(created_at: str) -> str:
     start = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
     now = datetime.now(timezone.utc)
-    years = now.year - start.year
-    months = now.month - start.month
-    days = now.day - start.day
-    if days < 0:
+
+    def anniversary(months: int) -> datetime:
+        year, month = divmod(start.month - 1 + months, 12)
+        year, month = start.year + year, month + 1
+        # Clamp so the 31st lands on the last day of a shorter month.
+        day = min(start.day, calendar.monthrange(year, month)[1])
+        return start.replace(year=year, month=month, day=day)
+
+    months = (now.year - start.year) * 12 + now.month - start.month
+    if anniversary(months) > now:
         months -= 1
-        days += 30
-    if months < 0:
-        years -= 1
-        months += 12
+    days = (now - anniversary(months)).days
+    years, months = divmod(months, 12)
     parts = [(years, "year"), (months, "month"), (days, "day")]
     return ", ".join(f"{n} {w}{'s' if n != 1 else ''}" for n, w in parts if n)
 
