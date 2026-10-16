@@ -46,14 +46,14 @@
   "pushedAt": "2026-09-18T18:07:37Z"
  },
  "alihancaliskan.com.tr": {
-  "add": 23091,
-  "del": 2934,
-  "pushedAt": "2026-10-11T12:58:42Z"
+  "add": 31011,
+  "del": 3665,
+  "pushedAt": "2026-10-15T16:51:32Z"
  },
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-10-14T09:06:04Z"
+  "pushedAt": "2026-10-15T08:39:08Z"
  },
  "aura_auv": {
   "add": 1,
@@ -75,6 +75,31 @@
   "add": 24951,
   "del": 14023,
   "pushedAt": "2026-10-11T14:46:00Z"
+ },
+ "game-auv": {
+  "add": 5,
+  "del": 0,
+  "pushedAt": "2026-10-15T17:02:37Z"
+ },
+ "game-codenames": {
+  "add": 5,
+  "del": 0,
+  "pushedAt": "2026-10-15T17:02:52Z"
+ },
+ "game-drone": {
+  "add": 6,
+  "del": 0,
+  "pushedAt": "2026-10-15T17:02:30Z"
+ },
+ "game-pendulum": {
+  "add": 2903,
+  "del": 2,
+  "pushedAt": "2026-10-16T06:11:40Z"
+ },
+ "game-yuzbir": {
+  "add": 5,
+  "del": 0,
+  "pushedAt": "2026-10-15T17:02:45Z"
  },
  "jetson_boot": {
   "add": 547,
