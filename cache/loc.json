@@ -53,7 +53,12 @@
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-10-16T08:34:12Z"
+  "pushedAt": "2026-10-17T08:06:25Z"
+ },
+ "am32_firmware": {
+  "add": 5181,
+  "del": 25,
+  "pushedAt": "2026-10-17T19:35:39Z"
  },
  "aura_auv": {
   "add": 1,
