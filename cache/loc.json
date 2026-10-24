@@ -35,6 +35,11 @@
   "del": 78,
   "pushedAt": "2026-09-05T09:44:34Z"
  },
+ "Glotlas": {
+  "add": 484385,
+  "del": 5230,
+  "pushedAt": "2026-10-23T11:56:34Z"
+ },
  "Pic_Telegraph": {
   "add": 29329,
   "del": 27127,
@@ -59,7 +64,7 @@
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-10-22T08:59:15Z"
+  "pushedAt": "2026-10-23T08:54:12Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -83,9 +88,9 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 24951,
-  "del": 14023,
-  "pushedAt": "2026-10-11T14:46:00Z"
+  "add": 25010,
+  "del": 14088,
+  "pushedAt": "2026-10-24T06:40:07Z"
  },
  "game-auv": {
   "add": 5,
