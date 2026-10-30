@@ -56,6 +56,12 @@
   "empty": true,
   "pushedAt": "2026-10-19T07:41:01Z"
  },
+ "RustMavUI": {
+  "add": 0,
+  "del": 0,
+  "empty": true,
+  "pushedAt": "2026-10-29T11:27:59Z"
+ },
  "Yeke": {
   "add": 0,
   "del": 0,
@@ -69,7 +75,7 @@
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-10-28T10:06:19Z"
+  "pushedAt": "2026-10-29T10:30:51Z"
  },
  "am32_firmware": {
   "add": 5328,
