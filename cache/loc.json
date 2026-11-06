@@ -75,7 +75,7 @@
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-11-04T11:41:04Z"
+  "pushedAt": "2026-11-05T11:41:19Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -104,9 +104,9 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 25097,
-  "del": 14455,
-  "pushedAt": "2026-10-28T17:48:00Z"
+  "add": 25438,
+  "del": 14888,
+  "pushedAt": "2026-11-05T19:40:46Z"
  },
  "game-auv": {
   "add": 5,
@@ -139,10 +139,9 @@
   "pushedAt": "2026-09-22T18:24:27Z"
  },
  "omarchy-bluetooth-sound-control": {
-  "add": 0,
+  "add": 675,
   "del": 0,
-  "empty": true,
-  "pushedAt": "2026-11-05T10:26:07Z"
+  "pushedAt": "2026-11-05T18:44:00Z"
  },
  "omarchy-rainynight-theme": {
   "add": 209,
