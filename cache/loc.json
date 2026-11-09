@@ -15,9 +15,9 @@
   "pushedAt": "2025-09-10T14:17:10Z"
  },
  "Agents": {
-  "add": 714,
-  "del": 104,
-  "pushedAt": "2026-11-08T09:39:23Z"
+  "add": 715,
+  "del": 105,
+  "pushedAt": "2026-11-08T18:42:09Z"
  },
  "COM": {
   "add": 268,
@@ -75,7 +75,7 @@
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-11-07T10:45:31Z"
+  "pushedAt": "2026-11-08T10:49:55Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -104,9 +104,9 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 25438,
-  "del": 14888,
-  "pushedAt": "2026-11-05T19:40:46Z"
+  "add": 26096,
+  "del": 16140,
+  "pushedAt": "2026-11-08T19:18:29Z"
  },
  "game-auv": {
   "add": 5,
@@ -143,6 +143,11 @@
   "del": 0,
   "pushedAt": "2026-11-05T18:44:00Z"
  },
+ "omarchy-proxy-control": {
+  "add": 458,
+  "del": 5,
+  "pushedAt": "2026-11-08T19:24:53Z"
+ },
  "omarchy-rainynight-theme": {
   "add": 209,
   "del": 2459,
@@ -152,6 +157,11 @@
   "add": 0,
   "del": 1,
   "pushedAt": "2025-10-07T11:47:28Z"
+ },
+ "redmi_note_9_rom": {
+  "add": 229,
+  "del": 0,
+  "pushedAt": "2026-11-08T15:09:37Z"
  },
  "sart_checker": {
   "add": 1496,
