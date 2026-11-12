@@ -80,7 +80,7 @@
  "alihancaliskanx": {
   "add": 1389,
   "del": 789,
-  "pushedAt": "2026-11-10T11:54:52Z"
+  "pushedAt": "2026-11-11T11:31:45Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -109,9 +109,9 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 26193,
-  "del": 16178,
-  "pushedAt": "2026-11-10T19:48:58Z"
+  "add": 26299,
+  "del": 16198,
+  "pushedAt": "2026-11-11T16:39:16Z"
  },
  "game-auv": {
   "add": 5,
@@ -149,9 +149,9 @@
   "pushedAt": "2026-11-05T18:44:00Z"
  },
  "omarchy-proxy-control": {
-  "add": 489,
-  "del": 12,
-  "pushedAt": "2026-11-10T19:47:48Z"
+  "add": 510,
+  "del": 38,
+  "pushedAt": "2026-11-11T14:41:49Z"
  },
  "omarchy-rainynight-theme": {
   "add": 209,
