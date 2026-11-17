@@ -50,7 +50,7 @@ PROFILE = [
     ("Terminal",  "alacritty, ghostty"),
     ("Editor",    "Neovim (LazyVim), Vim, VSCode"),
     (),
-    ("Code",      "C, C++, Python, Go, Lua, Bash"),
+    ("Code",      "C, C++, Python, MATLAB, Go, Lua, Bash"),
     ("Spoken",    "Turkish, English"),
     (),
     ("Team",      "AURA Team"),
