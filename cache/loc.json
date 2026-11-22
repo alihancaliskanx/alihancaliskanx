@@ -45,15 +45,32 @@
   "del": 5230,
   "pushedAt": "2026-10-23T11:56:34Z"
  },
+ "KickFeud": {
+  "add": 0,
+  "del": 0,
+  "empty": true,
+  "pushedAt": "2026-11-21T12:35:09Z"
+ },
  "Local-LLM-Unsensored": {
-  "add": 18787,
-  "del": 4848,
-  "pushedAt": "2026-11-19T17:47:23Z"
+  "add": 18817,
+  "del": 4854,
+  "pushedAt": "2026-11-21T14:03:11Z"
+ },
+ "MekipFeud": {
+  "add": 0,
+  "del": 0,
+  "empty": true,
+  "pushedAt": "2026-11-21T18:33:26Z"
  },
  "Pic_Telegraph": {
   "add": 29329,
   "del": 27127,
   "pushedAt": "2026-01-01T20:02:24Z"
+ },
+ "ProjectBenetton": {
+  "add": 3914,
+  "del": 14,
+  "pushedAt": "2026-11-21T21:06:46Z"
  },
  "RoboDK_Code_Project": {
   "add": 0,
@@ -80,7 +97,7 @@
  "alihancaliskanx": {
   "add": 1390,
   "del": 790,
-  "pushedAt": "2026-11-20T12:17:59Z"
+  "pushedAt": "2026-11-21T11:53:04Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -109,14 +126,14 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 26372,
-  "del": 16248,
-  "pushedAt": "2026-11-18T20:28:35Z"
+  "add": 26445,
+  "del": 16260,
+  "pushedAt": "2026-11-21T15:27:07Z"
  },
  "freelancer_agency": {
-  "add": 3362,
-  "del": 4,
-  "pushedAt": "2026-11-20T20:17:30Z"
+  "add": 6463,
+  "del": 212,
+  "pushedAt": "2026-11-21T17:01:35Z"
  },
  "game-auv": {
   "add": 5,
