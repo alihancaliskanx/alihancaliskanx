@@ -57,10 +57,9 @@
   "pushedAt": "2026-11-21T14:03:11Z"
  },
  "MekipFeud": {
-  "add": 0,
-  "del": 0,
-  "empty": true,
-  "pushedAt": "2026-11-21T18:33:26Z"
+  "add": 5239,
+  "del": 148,
+  "pushedAt": "2026-11-24T20:36:14Z"
  },
  "MekipRules": {
   "add": 0,
@@ -74,9 +73,9 @@
   "pushedAt": "2026-01-01T20:02:24Z"
  },
  "ProjectBenetton": {
-  "add": 3914,
-  "del": 14,
-  "pushedAt": "2026-11-21T21:06:46Z"
+  "add": 7998,
+  "del": 2396,
+  "pushedAt": "2026-11-24T15:42:05Z"
  },
  "RoboDK_Code_Project": {
   "add": 0,
@@ -96,14 +95,14 @@
   "pushedAt": "2026-09-18T18:07:37Z"
  },
  "alihancaliskan.com.tr": {
-  "add": 31888,
-  "del": 3722,
-  "pushedAt": "2026-11-04T21:52:27Z"
+  "add": 31917,
+  "del": 4500,
+  "pushedAt": "2026-11-24T19:42:32Z"
  },
  "alihancaliskanx": {
   "add": 1390,
   "del": 790,
-  "pushedAt": "2026-11-23T13:46:49Z"
+  "pushedAt": "2026-11-24T14:22:14Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -132,9 +131,9 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 27072,
+  "add": 27138,
   "del": 16298,
-  "pushedAt": "2026-11-24T13:33:53Z"
+  "pushedAt": "2026-11-24T20:26:30Z"
  },
  "freelancer_agency": {
   "add": 6463,
@@ -178,9 +177,9 @@
   "pushedAt": "2026-11-17T22:46:27Z"
  },
  "omarchy-bluetooth-sound-control": {
-  "add": 675,
-  "del": 0,
-  "pushedAt": "2026-11-05T18:44:00Z"
+  "add": 965,
+  "del": 56,
+  "pushedAt": "2026-11-24T21:07:28Z"
  },
  "omarchy-proxy-control": {
   "add": 617,
