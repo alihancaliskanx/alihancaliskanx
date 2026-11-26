@@ -57,9 +57,9 @@
   "pushedAt": "2026-11-21T14:03:11Z"
  },
  "MekipFeud": {
-  "add": 5239,
-  "del": 148,
-  "pushedAt": "2026-11-24T20:36:14Z"
+  "add": 5409,
+  "del": 177,
+  "pushedAt": "2026-11-25T20:20:34Z"
  },
  "MekipRules": {
   "add": 0,
@@ -102,7 +102,7 @@
  "alihancaliskanx": {
   "add": 1390,
   "del": 790,
-  "pushedAt": "2026-11-24T14:22:14Z"
+  "pushedAt": "2026-11-25T13:41:34Z"
  },
  "am32_firmware": {
   "add": 5328,
@@ -131,9 +131,9 @@
   "pushedAt": "2025-11-20T18:54:02Z"
  },
  "dotfiles": {
-  "add": 27138,
-  "del": 16298,
-  "pushedAt": "2026-11-24T20:26:30Z"
+  "add": 27544,
+  "del": 16442,
+  "pushedAt": "2026-11-26T13:00:08Z"
  },
  "freelancer_agency": {
   "add": 6463,
@@ -182,9 +182,9 @@
   "pushedAt": "2026-11-24T21:07:28Z"
  },
  "omarchy-proxy-control": {
-  "add": 617,
-  "del": 62,
-  "pushedAt": "2026-11-22T18:59:47Z"
+  "add": 686,
+  "del": 71,
+  "pushedAt": "2026-11-26T12:43:46Z"
  },
  "omarchy-rainynight-theme": {
   "add": 209,
