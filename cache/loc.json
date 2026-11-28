@@ -30,6 +30,12 @@
   "empty": true,
   "pushedAt": "2026-09-18T11:32:15Z"
  },
+ "DynamicModel": {
+  "add": 0,
+  "del": 0,
+  "empty": true,
+  "pushedAt": "2026-11-28T12:07:47Z"
+ },
  "EnglishMan": {
   "add": 464396,
   "del": 78,
@@ -102,7 +108,7 @@
  "alihancaliskanx": {
   "add": 1390,
   "del": 790,
-  "pushedAt": "2026-11-26T13:19:31Z"
+  "pushedAt": "2026-11-27T13:15:36Z"
  },
  "am32_firmware": {
   "add": 5328,
